@@ -1,0 +1,23 @@
+{
+ "n_images_3plus_distinct": 621,
+ "rot_sorted_obs": 0.40418679549114334,
+ "rot_sorted_exp_random": 0.1978582930756844,
+ "rot_desc_obs": 0.5152979066022544,
+ "rot_desc_exp_random": 0.1977536231884058,
+ "splithalf_golden_k1": {
+  "fixed_positions": 0.9292615932246135,
+  "random_order_mean": 0.917485522536518
+ },
+ "splithalf_golden_k2": {
+  "fixed_positions": 0.9624717787627203,
+  "random_order_mean": 0.9571764416788524
+ },
+ "splithalf_chal_k1": {
+  "fixed_positions": 0.9050776069199049,
+  "random_order_mean": 0.8979916009521411
+ },
+ "splithalf_chal_k2": {
+  "fixed_positions": 0.9512150687126277,
+  "random_order_mean": 0.9469861868956193
+ }
+}

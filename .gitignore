@@ -1,0 +1,4 @@
+.DS_Store
+# Raw MST-E dataset (~10 GB): keep out of git
+mst-e_data.zip
+data/

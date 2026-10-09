@@ -1,0 +1,25 @@
+import pandas as pd, numpy as np
+S='/private/tmp/claude-501/-Users-connielam-Documents-Github-modlli-research/258e1bf5-b292-418f-9e28-a4893dc6037a/scratchpad'
+D='/Users/connielam/Documents/Github/modlli_research/data'
+df=pd.read_csv(S+'/reanalysis/annotations_clean.csv')
+print(df.shape); print(df.dtypes)
+print(df.subject_csv.unique(), df.region_csv.unique())
+print(df.annotation.value_counts().sort_index())
+img=df.groupby('image').agg(n=('mst_annot','size'),subj=('subject','first'),orc=('oracle','first'),light=('lighting','first'),g=('is_golden','first'),c=('is_challenging','first'))
+print(img.n.value_counts())
+print(img.light.value_counts(dropna=False))
+print(img.groupby('subj').size())
+print('golden imgs',img.g.sum(),'chal',img.c.sum())
+print(img[img.n<5])
+print(df.meta_conflict.sum(), df[df.meta_conflict].image.unique())
+print(df[df.meta_missing].image.unique())
+det=pd.read_csv(D+'/mst-e_data/mst-e_image_details.csv')
+print(det.shape, det.image_ID.nunique(), det.MST.value_counts().sort_index())
+print(det.groupby('MST').subject_name.nunique())
+print(det.pose.value_counts(), det['mask'].value_counts())
+raw=pd.read_csv(D+'/mste_annotations.csv'); print(raw.shape, raw.columns.tolist(), raw.image.nunique())
+# images in details not annotated
+print('in det not annot', len(set(det.image_ID)-set(df.image)), 'annot not in det', len(set(df.image)-set(det.image_ID)))
+print(det[~det.image_ID.isin(df.image)].lighting.value_counts())
+print(det[~det.image_ID.isin(df.image)].image_ID.str[-4:].value_counts())
+print(det.image_ID.str.split('.').str[-1].value_counts())

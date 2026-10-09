@@ -1,0 +1,15 @@
+details_rows_by_ext : {"jpg": 1489, "mp4": 34, "dng": 22, "none": 1}
+details_rows_total : 1546
+details_unique_ids_by_ext : {"jpg": 1486, "mp4": 34, "dng": 22, "none": 1}
+golden_183259162 : [["subject_18", "PXL_20220922_183259162.jpg", "PXL_20220922_183627117.PORTRAIT.jpg"]]
+labels_with_missing_or_video_lighting : [20, 4]
+first_run_count_fit : {"chi2": 7.551553125711084, "df": 7, "p": 0.37379095602148604, "rows": [{"pattern": [2, 1, 1], "n": 1, "obs": {"1": 0.0, "2": 1.0}, "exp": {"1": 0.5, "2": 0.5}}, {"pattern": [2, 1, 1, 1], "n": 75, "obs": {"1": 40.0, "2": 35.0}, "exp": {"1": 45.0, "2": 30.0}}, {"pattern": [2, 2, 1], "n": 238, "obs": {"1": 42.0, "2": 196.0}, "exp": {"1": 47.6, "2": 190.4}}, {"pattern": [3, 1], "n": 6, "obs": {"1": 0.0, "3": 6.0}, "exp": {"1": 1.5, "3": 4.5}}, {"pattern": [3, 1, 1], "n": 304, "obs": {"1": 113.0, "3": 191.0}, "exp": {"1": 121.6, "3": 182.4}}, {"pattern": [3, 2], "n": 354, "obs": {"2": 131.0, "3": 223.0}, "exp": {"2": 141.6, "3": 212.4}}, {"pattern": [4, 1], "n": 342, "obs": {"1": 68.0, "4": 274.0}, "exp": {"1": 68.4, "4": 273.6}}]}
+run_order_models : {"nll_beta0": 1543.0237703824841, "nll_beta": 1455.9540563139853, "beta": 0.4065675520475785, "nll_mix_asc": 1531.1904306471206, "pi_asc": 0.06575247870787157, "nll_mix_desc": 1543.0265902281308, "pi_desc": 6.960849064827165e-06}
+per_subject_asc_obs_exp_desc_obs_exp_n : {"subject_0": [16, 12.2, 7, 8.6, 37, 3], "subject_1": [18, 21.3, 31, 23.2, 61, 2], "subject_10": [25, 17.2, 11, 22.8, 62, 9], "subject_11": [32, 26.1, 8, 20.7, 104, 5], "subject_12": [47, 35.3, 22, 41.9, 109, 10], "subject_13": [27, 21.2, 14, 20.2, 46, 2], "subject_14": [29, 26.9, 21, 25.8, 82, 6], "subject_15": [16, 12.2, 11, 11.7, 52, 3], "subject_16": [39, 37.5, 19, 24.0, 73, 1], "subject_17": [29, 19.0, 5, 16.9, 59, 8], "subject_18": [26, 23.8, 5, 7.2, 31, 1], "subject_2": [33, 24.6, 10, 22.3, 73, 8], "subject_3": [42, 25.7, 14, 27.1, 70, 6], "subject_4": [32, 20.0, 15, 27.0, 69, 9], "subject_5": [35, 25.9, 13, 22.7, 64, 7], "subject_6": [24, 23.6, 20, 19.3, 73, 5], "subject_7": [21, 30.1, 40, 30.3, 94, 4], "subject_8": [26, 28.9, 34, 32.1, 83, 2], "subject_9": [32, 32.0, 26, 25.3, 84, 4]}
+fisher_or_ci_woolf : [0.1902200579546298, 1.698962919684309]
+subject_pooled_median_signed_diff : {"subject_0": 1.0, "subject_1": 1.0, "subject_10": -1.0, "subject_11": -1.0, "subject_12": -1.0, "subject_13": 1.0, "subject_14": -2.0, "subject_15": 1.0, "subject_16": 1.0, "subject_17": -1.0, "subject_18": 0.0, "subject_2": -1.0, "subject_3": 1.0, "subject_4": -1.0, "subject_5": 0.0, "subject_6": -1.0, "subject_7": 0.0, "subject_8": 1.0, "subject_9": -1.0}
+subject_pooled_exact : 3
+subject_pooled_mean_abs : 0.8947368421052632
+subject_pooled_mean_signed : -0.15789473684210525
+mean_err_annotation_weighted : -0.20378634212305613
+mean_err_subject_unweighted : -0.12296731844593463
